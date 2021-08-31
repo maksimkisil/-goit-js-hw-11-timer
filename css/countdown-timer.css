@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  position: relative;
+  background-color: #ffffff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../images/sale.jpg");
+}
+
+.timer {
+  position: fixed;
+
+  text-align: center;
+  font-weight: bold;
+  font-size: 90px;
+
+  color: #fdfdfd;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.field {
+  display: inline-block;
+  padding: 15px;
+  border-radius: 3px;
+  border: 1px solid #717171;
+
+  background-color: #e80303;
+}
+
+.value {
+  display: inline-block;
+  padding: 15px;
+  border-radius: 3px;
+
+  background-color: #9b0909;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+.label {
+  display: block;
+  padding-top: 10px;
+
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 40px;
+}
